@@ -8,7 +8,7 @@
 
 - CSS3 – Styling and layout design
 
-- JavaScript – Interactive greeting (sayHello function) 
+- JavaScript – Interactive greeting (sayHello function)  
 
 - VS Code / Any Code Editor – For development
 
