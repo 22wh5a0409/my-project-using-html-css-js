@@ -4,7 +4,7 @@
 - To create a simple, responsive personal profile webpage using HTML, CSS, and JavaScript that introduces the user, displays a favorite quote, and provides a contact form. 
 
 # 🛠️ Tools Used
-- HTML5 – Structure of the webpage
+- HTML5 – Structure of the webpage 
 
 - CSS3 – Styling and layout design
 
