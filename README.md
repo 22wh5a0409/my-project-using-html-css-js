@@ -1,7 +1,7 @@
 # ${\color{red} My \ project \  using \  HTML,CSS,JS}$
  
 # 🎯 Objective
-- To create a simple, responsive personal profile webpage using HTML, CSS, and JavaScript that introduces the user, displays a favorite quote, and provides a contact form.
+- To create a simple, responsive personal profile webpage using HTML, CSS, and JavaScript that introduces the user, displays a favorite quote, and provides a contact form. 
 
 # 🛠️ Tools Used
 - HTML5 – Structure of the webpage
