@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project</title>
+    <style>
+      body {
+        background-color: lightcyan;
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+
+      #survey {
+        background-color: lightpink;
+        font-size: 48px;
+        color: darkblue;
+        font-family: 'Times New Roman', serif;
+        padding: 20px 0;
+        margin: 0;
+      }
+
+      .center-img {
+        width: 150px;
+        display: block;
+        margin: 20px auto;
+        border-radius: 10px;
+      }
+
+      #para {
+        font-family: Georgia, serif;
+        font-size: 20px;
+        width: 60%;
+        margin: 0 auto 20px;
+        line-height: 1.6;
+      }
+
+      .quote-box {
+        border-left: 4px solid #00bcd4;
+        background-color: #f0fafa;
+        font-style: italic;
+        width: 60%;
+        margin: 20px auto;
+        padding: 15px 20px;
+        font-size: 18px;
+      }
+
+      .author {
+        text-align: right;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+
+      button {
+        background-color: darksalmon;
+        font-size: 18px;
+        border-radius: 8px;
+        padding: 12px 20px;
+        cursor: pointer;
+        border: none;
+        margin-top: 10px;
+      }
+
+      h2 {
+        color: darkblue;
+        font-size: 28px;
+        margin: 30px 0 10px;
+      }
+
+      .form-container {
+        width: 300px;
+        margin: 0 auto;
+        text-align: left;
+      }
+
+      label {
+        display: block;
+        font-weight: bold;
+        font-size: 18px;
+        margin: 12px 0 4px;
+      }
+
+      input, textarea {
+        width: 100%;
+        padding: 8px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      textarea {
+        resize: vertical;
+        height: 100px;
+      }
+
+      .button1 {
+        background-color: plum;
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 6px;
+        margin-top: 12px;
+        width: 100%;
+        cursor: pointer;
+        border: none;
+      }
+    </style>
+
+    <script>
+      function sayHello() {
+        var name = prompt("What is your name?");
+        if (name) {
+          alert("Hello, " + name + "!");
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1 id="survey">Welcome to My Profile Page</h1>
+
+    <img src="kumari_pic.jpg" alt="profile photo" class="center-img" />
+
+    <p id="para">
+      My name is M.Kumari. I am currently pursuing my final year in BVRIT College of Engineering
+      for Women. My hobbies are drawing, listening to music, and reading books.
+    </p>
+
+    <div class="quote-box">
+      <p>"Success is not final, failure is not fatal: It is the courage to continue that counts."</p>
+      <p class="author">— Winston Churchill</p>
+    </div>
+
+    <button type="button" onclick="sayHello()">Say Hello</button>
+
+    <h2>Contact Me</h2>
+
+    <div class="form-container">
+      <form id="form">
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="Enter your Name" />
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Enter your Email ID" />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your message..."></textarea>
+
+        <button class="button1" type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
+
